@@ -8,8 +8,8 @@ on:
         required: true
 
 jobs:
-  Input Display:
+  input_display:
     runs-on: ubuntu-latest
     steps:
       - name: Input Display Message
-        run: echo "${{github.event.inputs.message }}"s
+        run: echo "${{ github.event.inputs.message }}"

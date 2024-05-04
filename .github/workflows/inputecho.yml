@@ -11,5 +11,5 @@ jobs:
   Input Display:
     runs-on: ubuntu-latest
     steps:
-    - name: Input Display Message
-      run: echo "${{ github.event.inputs.message }}"
+      - name: Input Display Message
+        run: echo "${{github.event.inputs.message }}"s
